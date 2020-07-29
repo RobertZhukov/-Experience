@@ -4,7 +4,7 @@ let speedPaint = 0.61;
 let xPosition = "x";
 const intervalBetweenFrames = 10;
 let speedUp = 5;
-let timeToFinishPaint = 300;
+let timeToFinishPaint = 500;
 
 // Fill logo
 let paintPreloader = setInterval(function () {
