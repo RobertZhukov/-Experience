@@ -3,8 +3,8 @@ let startPaint = -198;
 let speedPaint = 0.61;
 let xPosition = "x";
 const intervalBetweenFrames = 10;
-let speedUp = 5;
-let timeToFinishPaint = 500;
+let speedUp = 1;
+let timeToFinishPaint = 2000;
 
 // Fill logo
 let paintPreloader = setInterval(function () {
@@ -29,3 +29,5 @@ window.onload = function () {
     document.getElementById("preloader").style.display = "none";
   }, timeToFinishPaint);
 };
+
+
